@@ -1,4 +1,5 @@
 const { DataTypes } = require('sequelize');
+const list = require('../../otherFiles/platforms')
 // Exportamos una funcion que define el modelo
 // Luego le injectamos la conexion a sequelize.
 module.exports = (sequelize) => {
@@ -19,7 +20,7 @@ module.exports = (sequelize) => {
       allowNull: false,
     },
     plarforms: {
-      type:DataTypes.ENUM('PC', 'PlayStation 4', 'Xbox One', 'Nintendo Switch', 'iOS', 'Android'),
+      type:DataTypes.ENUM(list),
       allowNull: false,
     },
     image: {
@@ -32,7 +33,7 @@ module.exports = (sequelize) => {
     },
     rating: {
       type: DataTypes.INTEGER,
-
+      
     },
   },
   { timestamps: false });
