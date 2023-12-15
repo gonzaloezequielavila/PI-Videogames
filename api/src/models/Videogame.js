@@ -19,7 +19,7 @@ module.exports = (sequelize) => {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    plarforms: {
+    platforms: {
       type:DataTypes.ENUM(list),
       allowNull: false,
     },
@@ -27,7 +27,7 @@ module.exports = (sequelize) => {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    launch_date: {
+    released: {
       type: DataTypes.DATE,
       allowNull: false,
     },
