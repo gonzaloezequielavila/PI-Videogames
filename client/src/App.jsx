@@ -6,6 +6,7 @@ import './App.css'
 import Landing from './views/Landing'
 import Home from './views/Home'
 import Detail from './views/Detail'
+import NewGame from './views/NewGame'
 import Nav from './components/Nav'
 
 
@@ -26,6 +27,10 @@ function App() {
           <Route
             path='/detail'
             element={<Detail/>}/>
+
+          <Route
+          path='/newgame'
+          element={<NewGame/>}/>
     </Routes>
     </div>
   )

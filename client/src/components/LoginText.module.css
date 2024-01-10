@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ysabeau+SC:wght@600&display=swap');
+
+.container{
+  background-color: #f0f0f0;
+  border-radius: 15px;
+  padding: 25px;
+  max-width: 400px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-between;
+}
+.container:hover{
+  background-color: #c6c6c6;
+}
+
+.inputs{
+  color: black;
+  font-family: 'Bebas Neue', sans-serif;
+  display: flex;
+  height: 25%;
+  justify-content: space-between
+}
+a{
+  padding: 5px;
+  text-decoration: none;
+}
+.buttonContainer{
+  margin-top: 1rem;
+}
