@@ -1,0 +1,11 @@
+.container{
+  display: inline-block;
+  width: 100%;
+  background-color: rgb(44, 44, 44, 0.7);
+  border-radius: 15px;
+  padding-bottom: 5rem;
+}
+.searchBar{
+  display:inline-block;
+  border-width: thick;
+}
