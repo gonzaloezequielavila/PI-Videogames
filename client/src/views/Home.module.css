@@ -6,6 +6,12 @@
   padding-bottom: 5rem;
 }
 .searchBar{
-  display:inline-block;
+  display:flex;
   border-width: thick;
+  justify-content: center;
+}
+.input{
+  margin-right: 7px;
+  padding: 5px;
+  border-radius: 8px;
 }
